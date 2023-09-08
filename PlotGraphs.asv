@@ -12,7 +12,6 @@ function[] = PlotGraphs(V,H,A,FM,T,k)
     A = A(1,1:k);
     FM = FM(1,1:k);
 
-
     subplot(4,1,1);
     plot(T,H,'r-');
     ylabel('height (m)');
